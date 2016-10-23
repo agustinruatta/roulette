@@ -8,13 +8,13 @@ SO: Windows y GNU/Linux.
 
 
 *****Consideraciones al compilar*****
-Seleccionar e indicar en qué Sistema Operativo se compila (#define SO_LINUX para compliar en GNU/Linux. #define SO_WINDOWS para compilar en Windows).
+Seleccionar e indicar en qué Sistema Operativo se compila (`#define SO_LINUX` para compliar en GNU/Linux. `#define SO_WINDOWS` para compilar en Windows).
 Para más información, ver al inicio de la codificación
 
 *****Cómo compilar en GNU/LINUX*****
 1-Entrar a la consola.
 2-Ubicarse con el comando "cd" en la carpeta donde se encuentra el código fuente.
-3-Ejecutar "gcc Ruleta.cpp" (Si el archivo de código fuente cambio de nombre, cambiar "Ruleta.cpp" por el nombre
+3-Ejecutar "gcc ruleta.cpp" (Si el archivo de código fuente cambio de nombre, cambiar "ruleta.cpp" por el nombre
 que tiene.
 
 
@@ -80,7 +80,6 @@ Bugs corregido:
 errores en ciertos compiladores).
 
 
-
 *****Versión 1.3*****
 
 Cambios:
@@ -118,10 +117,7 @@ Fecha de entrega: 18/03/2016
 a que las flechas direccionales en GNU/Linux están compuestas por tres números (27, 91, número específico de flecha).
 *Para ver más diferencias, consultar el encabezado "portabilidad_ruleta.h"
 
-
-
 */
-
 
 
 /*****Inicio de codificación*****/
@@ -146,8 +142,6 @@ a que las flechas direccionales en GNU/Linux están compuestas por tres números (
 #define APUESTA_COLORADO 0
 #define APUESTA_PAR 0
 #define APUESTA_MENOR 0
-
-
 
 
 /*****Prototipos de funciones.*****/
